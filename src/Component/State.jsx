@@ -15,7 +15,7 @@ const State = () => {
     <div>
         <h1>nnnn</h1>
         <p>{number}</p>
-       <button onClick={handleClick}> INcrese </button> 
+       <button onClick={handleClick}> Increase </button> 
     </div>
   )
 }

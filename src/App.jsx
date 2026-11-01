@@ -12,6 +12,7 @@ import Custom2 from './Component/Custom2'
 import Custom3 from './Component/Custom3'
 import Eventhandling from './Component/Eventhandling'
 import State from './Component/State'
+import Effect from './Component/Effect'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,7 +20,8 @@ function App() {
   return (
     <>
        <h1>React Hooks</h1>
-       <Callback3/>
+       <Effect/>
+       {/* <Callback3/> */}
        {/* <Custom1 /> */}
        {/* <State/> */}
        {/* Event Handling
@@ -27,9 +29,9 @@ function App() {
       {/* <hr /> */}
        {/* <Memo_not/> */}
        {/* <Memo/> */}
-       <p>without reactmemo and usecallback</p>
+       {/* <p>without reactmemo and usecallback</p> */}
        {/* <Callback1/> */}
-       <hr />
+       {/* <hr /> */}
        {/* <Callback3 /> */}
        {/* <p> with reactmemo and without usecallback</p>
        <Callback2/>
